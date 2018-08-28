@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1039333864862",
+    "project_id": "firebase-ushka"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1039333864862:android:508d8634cd546c8a",
+        "android_client_info": {
+          "package_name": "kodman.ushka"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1039333864862-oibkebjdaaudi77ur0024m1l2baet3ka.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "1039333864862-mnul4c73g6el4d1prvlkcrjduilvkbl6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kodman.ushka",
+            "certificate_hash": "bab3ca1a79cb55e8a0ba1120e448b57d436c104a"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuMb3aL8OQ_d-SFDgi6gpgdOxzGu_v4nU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
