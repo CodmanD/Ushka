@@ -30,8 +30,9 @@ public class MainActivity extends AppCompatActivity {
         this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 
 //---------Для отображения рекламы
-       MobileAds.initialize(getApplicationContext(), getResources().getString(R.string.ad_id_app));//"ca-app-pub-3917579650161866/9949160063");
+       MobileAds.initialize(getApplicationContext(), getResources().getString(R.string.ad_id_app_test));//"ca-app-pub-3917579650161866/9949160063");
        AdView adView=(AdView)this.findViewById(R.id.adView);
+     //  adView.setAdUnitId( getResources().getString(R.string.ad_id_app));
         AdRequest adRequest=new AdRequest.Builder().build();
         adView.loadAd(adRequest);
 

@@ -174,7 +174,7 @@ public class Game extends SurfaceView implements SurfaceHolder.Callback,
         mInterstitialAd = new InterstitialAd(context);
         //   Log.d("---", "idq = ");
         String id = getResources().getString(R.string.ad_interstitial_start);
-        Log.d("---", "id = " + id);
+       // Log.d("---", "id = " + id);
         mInterstitialAd.setAdUnitId(id);
         mInterstitialAd.loadAd(new AdRequest.Builder().build());
 
@@ -182,21 +182,21 @@ public class Game extends SurfaceView implements SurfaceHolder.Callback,
             @Override
             public void onAdLoaded() {
                 // Code to be executed when an ad finishes loading.
-                Log.d("---", "Loaded");
+                //Log.d("---", "Loaded");
             }
 
             @Override
             public void onAdFailedToLoad(int errorCode) {
                 // Toast.makeText(getActivity().getBaseContext(),"  Failed AD:"+errorCode,Toast.LENGTH_SHORT).show();
                 // Code to be executed when an ad request fails.
-                Log.d("---", "FailedToLoad :" + errorCode);
+               // Log.d("---", "FailedToLoad :" + errorCode);
             }
 
             @Override
             public void onAdOpened() {
                 //Toast.makeText(getActivity().getBaseContext(),"  Opened AD",Toast.LENGTH_SHORT).show();
                 // Code to be executed when the ad is displayed.
-                Log.d("---", "Opened");
+               // Log.d("---", "Opened");
                 //flag = true;
             }
 

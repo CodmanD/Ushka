@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Ushka</string>
+    <string name="exit">Покинуть игру?</string>
+    <string name="continueGame">Продолжить?</string>
+    <string name="newGame">Новая игра</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="description">Поворачивайте устройство для управления</string>
+    <string name="ad_id_app">ca-app-pub-3917579650161866~3770764521</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3917579650161866/9949160063</string>
+    <string name="ad_interstitial_start">ca-app-pub-3917579650161866/7628545644</string>
+</resources>

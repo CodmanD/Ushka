@@ -11,6 +11,22 @@
 
     >
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentTop="true"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="false"
+        android:layout_centerVertical="false"
+        android:text="@string/description"
+        android:textSize="10pt"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        />
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -29,6 +45,6 @@
 
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        ads:adSize="BANNER"
-        ads:adUnitId="@string/banner_ad_unit_id"></com.google.android.gms.ads.AdView>
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="@string/ad_banner_id"></com.google.android.gms.ads.AdView>
 </RelativeLayout>
